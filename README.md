@@ -34,3 +34,12 @@ flowchart LR
     style n4 stroke-width:1px,stroke-dasharray: 0,fill:#C8E6C9,color:#000000
     style n6 stroke-width:1px,stroke-dasharray: 0,fill:#C8E6C9,color:#000000
 ```
+
+<h1> Links Interessantes </h1>
+
+https://huggingnews.com/ <br>
+https://paperswithcode.co/ <br>
+https://www.openresearch.sh/compute <br>
+https://deepwiki.com/ <br>
+https://www.tensortonic.com/ <br>
+https://www.deep-ml.com/projects 
