@@ -17,3 +17,25 @@ RAG e as suas abordagens. Porque é importante e técnicas de implementação.
 <h1> <a href = "https://github.com/Eliezer-Carvalho/IP/blob/master/Automatic%20Speech%20Recognition/Automatic%20Speech%20Recognition.pdf"> Automatic Speech Recognition </a> </h1>
 
 Análise e estudo de modelos ASR. Construção do sistema <b> <a href = "https://github.com/Eliezer-Carvalho/IP/tree/master/Automatic%20Speech%20Recognition/v1"> Assobio</b></a>. 
+
+<h1> TL:DR </h1>
+
+```mermaid
+flowchart LR
+    n1["A Three-Dimensional Analysis for LLM Deployment"] <--> n2["Ínicio do estágio. \nComo principal objetivo compreender como hospedar de maneira local modelos de Inteligência Artificial e como avaliar a performance dos mesmos."]
+    n3["Context Engineering"] <--> n4["Temos os modelos do nosso lado, como os instruir a tomar as decisões que nós queremos ? \n O segredo está na construção de um bom e conciso contexto."]
+    n1 --> n3 & n9["Temas base para:"]
+    n5["Sythetic Data"] <--> n6["Os dados são o novo pretróleo. \n Os modelos de linguagem trouxeram uma revolução brutal à area de Dados Sintéticos e ter em posse ferramentas e técnicas para construir dados é muito importante na hora de Avaliar e Construir modelos. \n Abordagem a técnicas como Constraint Decoding."]
+    n3 --> n5 & n9
+    n5 --> n9
+    n9 --> n8["Assobio"] & n7["How To RAG"]
+    n8 <--> n10@{ label: "<span style=\"color:\">Os dados são o novo pretróleo. \\n Os modelos de linguagem trouxeram uma revolução brutal à area de Dados Sintéticos e ter em posse ferramentas e técnicas para construir dados é muito importante na hora de Avaliar e Construir modelos. \\n Abordagem a técnicas como Constraint Decoding.</span>" }
+    n7 --> n11["Os dados são o novo pretróleo. \n Os modelos de linguagem trouxeram uma revolução brutal à area de Dados Sintéticos e ter em posse ferramentas e técnicas para construir dados é muito importante na hora de Avaliar e Construir modelos. \n Abordagem a técnicas como Constraint Decoding."]
+
+    n10@{ shape: rect}
+    style n2 stroke-width:1px,stroke-dasharray: 0,fill:#C8E6C9,color:#000000
+    style n4 stroke-width:1px,stroke-dasharray: 0,fill:#C8E6C9,color:#000000
+    style n6 stroke-width:1px,stroke-dasharray: 0,fill:#C8E6C9,color:#000000
+    style n10 fill:#C8E6C9
+    style n11 fill:#C8E6C9
+```
