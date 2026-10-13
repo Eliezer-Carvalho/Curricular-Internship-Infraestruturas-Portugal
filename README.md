@@ -35,6 +35,11 @@ flowchart LR
     style n6 stroke-width:1px,stroke-dasharray: 0,fill:#C8E6C9,color:#000000
 ```
 
+<h1> A Inteligência é Artificial mas a mudança é Humana </h1>
+
+Paper científico apresentado como resumo do trabalho desenvolvido durante os 4 meses de estágio.
+
+
 <h1> Links Interessantes </h1>
 
 https://huggingnews.com/ <br>
